@@ -1,0 +1,13 @@
+test = ['mozarella', 'cinderella', 'salmonella']
+print(test)
+
+test[1] = 'Cinderella'
+print(test)
+
+test[0] = 'MOZARELLA'
+print(test)
+
+test.remove('salmonella')
+print(test)
+
+movies = ['A', "B", "C", "D", "E", "F", "G"]
